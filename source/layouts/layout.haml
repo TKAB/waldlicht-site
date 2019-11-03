@@ -1,0 +1,56 @@
+!!!
+%html{"data-html-server-rendered" => "true", :lang => "en"}
+  %head
+    %meta{:content => "text/html; charset=UTF-8", "http-equiv" => "Content-Type"}/
+    %meta{:charset => "utf-8"}/
+    %meta{:content => "ie=edge", "http-equiv" => "x-ua-compatible"}/
+    %meta{:content => "width=device-width, initial-scale=1, shrink-to-fit=no", :name => "viewport"}/
+    / Use the title from a page's frontmatter if it has one
+    %title= (current_page.data.title || "") + " - unconfuse"
+    = stylesheet_link_tag "site"
+    = javascript_include_tag "site"
+    %meta{:content => "width=device-width,\r\n      initial-scale=1, viewport-fit=cover", "data-key" => "viewport", :name => "viewport"}/
+    %meta{:content => "telephone=no", "data-key" => "format-detection", :name => "format-detection"}/
+    %meta{:content => "default", :name => "apple-mobile-web-app-status-bar-style"}/
+    %meta{:content => "", "data-key" => "description", :name => "description"}/
+  %body
+    %header.navbar.navbar-expand.navbar-dark.flex-column.flex-md-row.bd-navbar
+      %a.navbar-brand.mr-0.mr-md-2{"aria-label" => "unconfuse docs", :href => "/",}
+        -# = image_tag "logo-orv.svg", style: "height: 35px;"
+        unconfuse docs
+      .navbar-nav-scroll
+        %ul.navbar-nav.bd-navbar-nav.flex-row
+          %li.nav-item
+            %a.nav-link{:href => "/", :onclick => "ga('send', 'event', 'Navbar', 'Community links', 'Bootstrap');"} Home
+          %li.nav-item
+            %a.nav-link.active{:href => "/docs/4.3/getting-started/introduction/"} Bookmarklet
+      %ul.navbar-nav.flex-row.ml-md-auto.d-none.d-md-flex
+        -# %li.nav-item.dropdown
+        -#   %a#bd-versions.nav-item.nav-link.dropdown-toggle.mr-md-2{"aria-expanded" => "false", "aria-haspopup" => "true", "data-toggle" => "dropdown", :href => "#"}
+        -#     v4.3
+        -#   .dropdown-menu.dropdown-menu-right{"aria-labelledby" => "bd-versions"}
+        -#     %a.dropdown-item.active{:href => "/docs/4.3/"} Latest (4.3.x)
+        -#     %a.dropdown-item{:href => "https://getbootstrap.com/docs/4.2/"} v4.2.1
+        -#     %a.dropdown-item{:href => "https://getbootstrap.com/docs/4.0/"} v4.0.0
+        -#     .dropdown-divider
+        -#     %a.dropdown-item{:href => "https://v4-alpha.getbootstrap.com/"} v4 Alpha 6
+        -#     %a.dropdown-item{:href => "https://getbootstrap.com/docs/3.4/"} v3.4.1
+        -#     %a.dropdown-item{:href => "https://getbootstrap.com/docs/3.3/"} v3.3.7
+        -#     %a.dropdown-item{:href => "https://getbootstrap.com/2.3.2/"} v2.3.2
+        -#     .dropdown-divider
+        -#     %a.dropdown-item{:href => "/docs/versions/"} All versions
+        %li.nav-item
+          %a.nav-link.p-2{"aria-label" => "Twitter", :href => "http://twitter.com/unconfuse_me/", :rel => "noopener"}
+            %svg.navbar-nav-svg{:focusable => "false", :role => "img", :viewbox => "0 0 512 416.32", :xmlns => "http://www.w3.org/2000/svg"}
+              %title Twitter
+              %path{:d => "M160.83 416.32c193.2 0 298.92-160.22 298.92-298.92 0-4.51 0-9-.2-13.52A214 214 0 0 0 512 49.38a212.93 212.93 0 0 1-60.44 16.6 105.7 105.7 0 0 0 46.3-58.19 209 209 0 0 1-66.79 25.37 105.09 105.09 0 0 0-181.73 71.91 116.12 116.12 0 0 0 2.66 24c-87.28-4.3-164.73-46.3-216.56-109.82A105.48 105.48 0 0 0 68 159.6a106.27 106.27 0 0 1-47.53-13.11v1.43a105.28 105.28 0 0 0 84.21 103.06 105.67 105.67 0 0 1-47.33 1.84 105.06 105.06 0 0 0 98.14 72.94A210.72 210.72 0 0 1 25 370.84a202.17 202.17 0 0 1-25-1.43 298.85 298.85 0 0 0 160.83 46.92", :fill => "currentColor"}
+      -# %a.btn.btn-bd-download.d-none.d-lg-inline-block.mb-3.mb-md-0.ml-md-3{:href => "/docs/4.3/getting-started/download/"} Download
+    .container-fluid
+      .row.flex-xl-nowrap
+        .col-12.col-md-3.col-xl-2.bd-sidebar
+          %nav.collapse.bd-links#bd-docs-nav
+            = partial "partials/sidebar"
+        .d-none.d-xl-block.col-xl-2.db-toc
+        %main.col-12.col-md-9.col-xl-8.py-md-3.pl-md-5.bd-content
+          = yield
+        

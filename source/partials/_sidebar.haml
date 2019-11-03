@@ -1,0 +1,15 @@
+- toc = current_page.data.toc
+- if toc
+  .bd-toc-item
+    %a.bd-toc-link{href: "#top"}
+      %i Top
+  - toc.each do |toc_item|
+    .bd-toc-item
+      %a.bd-toc-link{href: "##{toc_item.anchor}"}
+        = toc_item.name
+      - if toc_item.sub
+        %ul.nav.bd-sidenav
+          - toc_item.sub.each do |sub_item|
+            %li
+              %a{href: "##{sub_item.anchor}"}
+                = sub_item.name
