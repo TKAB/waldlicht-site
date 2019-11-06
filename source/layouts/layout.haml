@@ -10,9 +10,8 @@
     %meta{:content => "width=device-width, initial-scale=1, user-scalable=no", :name => "viewport"}/
     %title= (current_page.data.title || "") + " - Waldlicht"
     = stylesheet_link_tag "site"
-    = stylesheet_link_tag "ekko-lightbox"
+    = stylesheet_link_tag "jquery.fancybox"
     = javascript_include_tag "site"
-    = javascript_include_tag "ekko-lightbox"
 
   %body.is-preload
     / Wrapper
@@ -54,9 +53,4 @@
     %script{:src => "/javascripts/html5up-editorial/browser.min.js"}
     %script{:src => "/javascripts/html5up-editorial/breakpoints.min.js"}
     %script{:src => "/javascripts/html5up-editorial/util.js"}
-    %script{:src => "/javascripts/html5up-editorial/main.js"}
-    :javascript
-      $(document).on('click', '[data-toggle="lightbox"]', function(event) {
-          event.preventDefault();
-            $(this).ekkoLightbox();
-        });
+    = javascript_include_tag "jquery.fancybox"

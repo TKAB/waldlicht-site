@@ -12,3 +12,8 @@ $palette: (
 ) !default;
 
 @import "html5up-editorial/main";
+
+.gallery img {
+  object-fit: cover;
+  height: 200px;
+}
