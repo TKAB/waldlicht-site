@@ -1,0 +1,15 @@
+backend:
+  name: git-gateway
+
+media_folder: source/images/uploads
+public_folder: /images/uploads
+
+collections:
+  - name: main_page
+    label: Abschnitte
+    folder: 'main'
+    fields:
+      - {label: Titel, name: title, widget: string}
+      - {label: Untertitle, name: subtitle, widget: string}
+      - {label: Body, name: body, widget: markdown}
+
