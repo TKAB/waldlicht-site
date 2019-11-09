@@ -14,7 +14,7 @@ collections:
     files:
       - label: "Abschnitte"
         name: "main_page_sections"
-        file: "/source/main_page.html.md"
+        file: "/source/main_page.html"
         fields:
           - label: "Abschnitte"
             name: "sections"
