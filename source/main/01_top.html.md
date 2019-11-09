@@ -1,5 +1,6 @@
 ---
 layout: null
+name_of_file: 01_top
 title: Der Waldkindergarten in Viktring
 ---
 
