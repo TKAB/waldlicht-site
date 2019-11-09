@@ -16,7 +16,7 @@ title: Der Waldkindergarten
 		%img{:alt => "", :src => "images/hero.jpg"}
 
 - sitemap.resources.sort {|a, b| a.path <=> b.path}.each do |resource|
-	- if resource.path.end_with?('html') && resource.path.start_with?('main') && !resource.path.end_with?('01_top.html')
+	- if resource.path.end_with?('html') && resource.path.start_with?('main/') && !resource.path.end_with?('01_top.html')
 		%section
 			.content
 				%header.major
