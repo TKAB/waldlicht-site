@@ -9,8 +9,24 @@ site_url: https://waldlicht.netlify.com
 display_url: https://waldlicht.netlify.com
 
 collections:
-  - name: "main_page"
-    label: "Abschnitte"
+  - label: "Hauptseite"
+    name: "main"
+    files:
+      - label: "Abschnitte"
+        name: "main_page_sections"
+        file: "/source/main_page.html.md"
+        fields:
+          - label: "Abschnitte"
+            name: "sections"
+            widget: "list"
+            fields:
+              - label: "Abschnitt"
+                name: "section"
+                collection: "sections"
+                searchFields: "title"
+                valueField: "title"
+  - label: "Abschnitte"
+    name: "sections"
     folder: "/source/main"
     fields:
       - { label: "Titel", name: "title", widget: "string" }
