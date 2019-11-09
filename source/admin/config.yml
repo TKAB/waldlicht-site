@@ -1,15 +1,20 @@
 backend:
   name: git-gateway
+  branch: master
 
 media_folder: source/images/uploads
 public_folder: /images/uploads
 
+site_url: https://waldlicht.netlify.com
+display_url: https://waldlicht.netlify.com
+
 collections:
-  - name: main_page
-    label: Abschnitte
-    folder: 'main'
+  - name: "main_page"
+    label: "Abschnitte"
+    folder: "main"
     fields:
-      - {label: Titel, name: title, widget: string}
-      - {label: Untertitle, name: subtitle, widget: string}
-      - {label: Body, name: body, widget: markdown}
+      - {label: "Name of file", name: "name_of_file", widget: "string"}
+      - {label: "Titel", name: "title", widget: "string"}
+      - {label: "Untertitle", name: "subtitle", widget: "string"}
+      - {label: "Body", name: "body", widget: "markdown"}
 
