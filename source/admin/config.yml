@@ -22,6 +22,7 @@ collections:
             fields:
               - label: "Abschnitt"
                 name: "section"
+                widget: "relation"
                 collection: "sections"
                 searchFields: "title"
                 valueField: "title"
