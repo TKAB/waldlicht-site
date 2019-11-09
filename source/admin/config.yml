@@ -14,8 +14,8 @@ collections:
     folder: "/source/main"
     fields:
       - { label: "Titel", name: "title", widget: "string" }
-      - { label: "Untertitle", name: "subtitle", widget: "string" }
-      - { label: "Body", name: "body", widget: "text" }
+      - { label: "Untertitel", name: "subtitle", widget: "string" }
+      - { label: "Text", name: "body", widget: "text" }
   - label: "Pages"
     name: "pages"
     files:

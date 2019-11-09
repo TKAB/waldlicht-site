@@ -9,11 +9,11 @@ subtitle: Wir sind...
 <dl>
   <dt>Somi Adrienn</dt>
   <dd>
-    <p></p>
+    <p>Kindergartenpädagogin (Leitung), Naturmentorin, <a href="http://www.nawisho.at/kursangebot/">Natur- und Wildnistrainerin</a>, Tanzpädagogin, Organisation, Kindergartengestaltung, Vereinsobfrau</p>
   </dd>
   <dt>Manuel Mädel</dt>
   <dd>
-    <p></p>
+    <p> <a href="http://www.nawisho.at/kursangebot/">Natur- und Wildnistrainer</a>, <a href="http://www.nawisho.at/kurse/lehrgang-friedenstiften/">Friedensstifter</a>, Musiker, Handwerker, Organisation</p>
   </dd>
   <dt>Alexandra Elleberger</dt>
   <dd>
