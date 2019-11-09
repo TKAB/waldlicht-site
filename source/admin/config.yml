@@ -11,7 +11,7 @@ display_url: https://waldlicht.netlify.com
 collections:
   - name: "main_page"
     label: "Abschnitte"
-    folder: "main"
+    folder: "/source/main"
     # identifier_field: "name_of_file"
     fields:
       # - {label: "Name of file", name: "name_of_file", widget: "string"}
@@ -23,7 +23,7 @@ collections:
     files:
       - label: "Elements"
         name: "elements"
-        file: "elements.html"
+        file: "/source/elements.html"
         fields:
           - {label: "Body", name: "body", widget: "text"}
 
