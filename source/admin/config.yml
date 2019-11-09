@@ -12,10 +12,10 @@ collections:
   - name: "main_page"
     label: "Abschnitte"
     folder: "main"
-    identifier_field: "name_of_file"
+    # identifier_field: "name_of_file"
     fields:
-      - {label: "Name of file", name: "name_of_file", widget: "string"}
+      # - {label: "Name of file", name: "name_of_file", widget: "string"}
       - {label: "Titel", name: "title", widget: "string"}
       - {label: "Untertitle", name: "subtitle", widget: "string"}
-      - {label: "Body", name: "body", widget: "markdown"}
+      - {label: "Body", name: "body", widget: "text"}
 
