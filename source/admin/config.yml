@@ -18,4 +18,12 @@ collections:
       - {label: "Titel", name: "title", widget: "string"}
       - {label: "Untertitle", name: "subtitle", widget: "string"}
       - {label: "Body", name: "body", widget: "text"}
+  - label: "Pages"
+    name: "pages"
+    files:
+      - label: "Elements"
+        name: "elements"
+        file: "elements.html"
+        fields:
+          - {label: "Body", name: "body", widget: "text"}
 
