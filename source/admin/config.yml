@@ -25,12 +25,12 @@ collections:
         fields:
           - { label: "Titel", name: "title", widget: "string" }
           - { label: "Untertitel", name: "subtitle", widget: "string" }
-          - { label: "Body", name: "body", widget: "text" }
+          - { label: "Body", name: "body", widget: "markdown" }
           - label: "Aufzählungspunkte"
             name: "bullets"
             widget: "list"
             fields:
-              - label: "Aufzählungspunkte"
+              - label: "Aufzählungspunkt"
                 name: "bullet"
                 widget: "string"
       - label: "Tagesablauf"
