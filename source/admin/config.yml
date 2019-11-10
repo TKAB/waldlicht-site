@@ -42,7 +42,7 @@ collections:
           - { label: "Layout", name: "layout", widget: "hidden", default: "null" }
           - { label: "Titel", name: "title", widget: "string" }
           - { label: "Untertitel", name: "subtitle", widget: "string" }
-          - { label: "Body", name: "body", widget: "text" }
+          - { label: "Zeitslotsüberschrift", name: "time_slots_header", widget: "string" }
           - label: "Zeitslots"
             name: "time_slots"
             widget: "list"
@@ -53,6 +53,7 @@ collections:
               - label: "Beschreibung"
                 name: "description"
                 widget: "string"
+          - { label: "Body", name: "body", widget: "markdown" }
       - label: "Das Team"
         name: "team"
         file: "/source/main/04_team.html.md"

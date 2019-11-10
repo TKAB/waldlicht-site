@@ -2,6 +2,7 @@
 layout: null
 title: Tagesablauf
 subtitle: Die Zeit im Waldkindergarten Waldlicht
+time_slots_header: Zeitliche Übersicht
 time_slots:
   - description: 'Sammelzeit beim Bauwagen bis 08:15, freie Spielzeit'
     time_frame: '07:30 - 08:30'
