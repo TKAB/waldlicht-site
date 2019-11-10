@@ -23,7 +23,7 @@ title: Der Waldkindergarten
 				= resource.data.title
 			- if resource.data.subtitle.length > 0
 				%p= resource.data.subtitle
-		- if resource.data.bullets.count > 0
+		- if resource.data.bullets && resource.data.bullets.count > 0
 			%ul.alt
 				- resource.data.bullets.each do |bullet|
 					%li= bullet.bullet
@@ -36,7 +36,7 @@ title: Der Waldkindergarten
 				= resource.data.title
 			- if resource.data.subtitle.length > 0
 				%p= resource.data.subtitle
-		- if resource.data.time_slots.count > 0
+		- if resource.data.time_slots && resource.data.time_slots.count > 0
 			.table-wrapper
 				%table
 					%tbody
