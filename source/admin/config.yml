@@ -57,7 +57,7 @@ collections:
         fields:
           - { label: "Titel", name: "title", widget: "string" }
           - { label: "Untertitel", name: "subtitle", widget: "string" }
-          - { label: "Body", name: "body", widget: "text" }
+          - { label: "Body", name: "body", widget: "markdown" }
           - label: "Mitglieder"
             name: "members"
             widget: "list"
