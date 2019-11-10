@@ -1,8 +1,17 @@
 ---
-layout: null
-name_of_file: 03_tagesablauf
 title: Tagesablauf
 subtitle: Die Zeit im Waldkindergarten Waldlicht
+time_slots:
+  - description: 'Sammelzeit beim Bauwagen bis 08:15, freie Spielzeit'
+    time_frame: '07:30 - 08:30'
+  - description: 'Morgenkreis und ab in den Wald, pädagogische Angebote'
+    time_frame: '08:30 - 10:00'
+  - description: Jause
+    time_frame: '10:00 - 10:30'
+  - description: 'freie Spielzeit, pädagogische Angebote, Rückweg'
+    time_frame: '10:30 - 12:00'
+  - description: fließende Abholzeit/Freispielzeit beim Bauwagen
+    time_frame: '12:30 - 13:30'
 ---
 
 <h3>Zeitliche Übersicht</h3>
