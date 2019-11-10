@@ -46,6 +46,21 @@ title: Der Waldkindergarten
 								%td= time_slot.description
 		= resource.render
 
+- resource = sitemap.find_resource_by_path('main/04_team.html')
+%section
+	.content
+		%header.major
+			%h2{id: resource.page_id}
+				= resource.data.title
+			- if resource.data.subtitle.length > 0
+				%p= resource.data.subtitle
+		= resource.render
+		- if resource.data.members && resource.data.members.count > 0
+			%dl
+				- resource.data.members.each do |member|
+					%dt= member.name
+					%dd= member.description
+
 / Section
 %section
 	.content
