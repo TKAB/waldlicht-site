@@ -13,6 +13,8 @@ page '/*.xml', layout: false
 page '/*.json', layout: false
 page '/*.txt', layout: false
 
+page '/main/*', layout: nil
+
 # Activate live-reload (with the reload gem)
 activate :livereload
 

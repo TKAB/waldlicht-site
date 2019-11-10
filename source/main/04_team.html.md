@@ -1,5 +1,4 @@
 ---
-layout: null
 name_of_file: 04_team
 title: Das Team
 subtitle: Wir sind...
