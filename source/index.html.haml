@@ -36,7 +36,7 @@ title: Der Waldkindergarten
 				= resource.data.title
 			- if resource.data.subtitle.length > 0
 				%p= resource.data.subtitle
-		- if resource.data.time_slots_header && time_slots_header.length > 0
+		- if resource.data.time_slots_header && resource.data.time_slots_header.length > 0
 			%h3= resource.data.time_slots_header
 		- if resource.data.time_slots && resource.data.time_slots.count > 0
 			.table-wrapper
