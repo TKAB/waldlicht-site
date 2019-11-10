@@ -1,4 +1,5 @@
 ---
+layout: null
 title: Tagesablauf
 subtitle: Die Zeit im Waldkindergarten Waldlicht
 time_slots:

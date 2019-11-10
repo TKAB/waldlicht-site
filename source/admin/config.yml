@@ -16,6 +16,7 @@ collections:
         name: "intro"
         file: "/source/main/01_top.html.md"
         fields:
+          - { label: "Layout", name: "layout", widget: "hidden", default: "null" }
           - { label: "Titel", name: "title", widget: "string" }
           - { label: "Untertitel", name: "subtitle", widget: "string" }
           - { label: "Body", name: "body", widget: "text" }
@@ -23,6 +24,7 @@ collections:
         name: "philosophie"
         file: "/source/main/02_philosophie.html.md"
         fields:
+          - { label: "Layout", name: "layout", widget: "hidden", default: "null" }
           - { label: "Titel", name: "title", widget: "string" }
           - { label: "Untertitel", name: "subtitle", widget: "string" }
           - { label: "Body", name: "body", widget: "markdown" }
@@ -37,6 +39,7 @@ collections:
         name: "tagesablauf"
         file: "/source/main/03_tagesablauf.html.md"
         fields:
+          - { label: "Layout", name: "layout", widget: "hidden", default: "null" }
           - { label: "Titel", name: "title", widget: "string" }
           - { label: "Untertitel", name: "subtitle", widget: "string" }
           - { label: "Body", name: "body", widget: "text" }
@@ -54,6 +57,7 @@ collections:
         name: "team"
         file: "/source/main/04_team.html.md"
         fields:
+          - { label: "Layout", name: "layout", widget: "hidden", default: "null" }
           - { label: "Titel", name: "title", widget: "string" }
           - { label: "Untertitel", name: "subtitle", widget: "string" }
           - { label: "Body", name: "body", widget: "text" }
