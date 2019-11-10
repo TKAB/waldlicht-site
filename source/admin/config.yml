@@ -9,30 +9,65 @@ site_url: https://waldlicht.netlify.com
 display_url: https://waldlicht.netlify.com
 
 collections:
-  - label: "Hauptseite"
-    name: "main"
-    files:
-      - label: "Abschnitte"
-        name: "main_page_sections"
-        file: "/source/main_page.html"
-        fields:
-          - label: "Abschnitte"
-            name: "sections"
-            widget: "list"
-            fields:
-              - label: "Abschnitt"
-                name: "section"
-                widget: "relation"
-                collection: "sections"
-                searchFields: "title"
-                valueField: "title"
   - label: "Abschnitte"
     name: "sections"
-    folder: "/source/main"
-    fields:
-      - { label: "Titel", name: "title", widget: "string" }
-      - { label: "Untertitel", name: "subtitle", widget: "string" }
-      - { label: "Text", name: "body", widget: "text" }
+    files:
+      - label: "Intro"
+        name: "intro"
+        file: "/source/main/01_top.html.md"
+        fields:
+          - { label: "Titel", name: "title", widget: "string" }
+          - { label: "Untertitel", name: "subtitle", widget: "string" }
+          - { label: "Body", name: "body", widget: "text" }
+      - label: "Philosophie"
+        name: "philosophie"
+        file: "/source/main/02_philosophie.html.md"
+        fields:
+          - { label: "Titel", name: "title", widget: "string" }
+          - { label: "Untertitel", name: "subtitle", widget: "string" }
+          - { label: "Body", name: "body", widget: "text" }
+          - label: "Aufzählungspunkte"
+            name: "bullets"
+            widget: "list"
+            fields:
+              - label: "Aufzählungspunkte"
+                name: "bullet"
+                widget: "string"
+      - label: "Tagesablauf"
+        name: "tagesablauf"
+        file: "/source/main/03_tagesablauf.html.md"
+        fields:
+          - { label: "Titel", name: "title", widget: "string" }
+          - { label: "Untertitel", name: "subtitle", widget: "string" }
+          - { label: "Body", name: "body", widget: "text" }
+          - label: "Zeitslots"
+            name: "time_slots"
+            widget: "list"
+            fields:
+              - label: "Zeitspanne"
+                name: "time_frame"
+                widget: "string"
+              - label: "Beschreibung"
+                name: "description"
+                widget: "string"
+      - label: "Das Team"
+        name: "team"
+        file: "/source/main/04_team.html.md"
+        fields:
+          - { label: "Titel", name: "title", widget: "string" }
+          - { label: "Untertitel", name: "subtitle", widget: "string" }
+          - { label: "Body", name: "body", widget: "text" }
+          - label: "Mitglieder"
+            name: "members"
+            widget: "list"
+            fields:
+              - label: "Name"
+                name: "name"
+                widget: "string"
+              - label: "Beschreibung"
+                name: "description"
+                widget: "string"
+
   - label: "Pages"
     name: "pages"
     files:

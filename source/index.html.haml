@@ -2,32 +2,49 @@
 title: Der Waldkindergarten
 ---
 
-- top = sitemap.find_resource_by_path('main/01_top.html')
+- resource = sitemap.find_resource_by_path('main/01_top.html')
 %section#banner
 	.content
 		%header
-			%h1= top.data.title
+			%h1= resource.data.title
 			-# %p A free and fully responsive site template
-		= top.render
+		= resource.render
 		%ul.actions
 			%li
 				%a.button.big{:href => "#"} PDF-Flyer ansehen
 	%span.image.object
 		%img{:alt => "", :src => "images/hero.jpg"}
 
-- sitemap.resources.sort {|a, b| a.path <=> b.path}.each do |resource|
-	- if resource.path.end_with?('html') && resource.path.start_with?('main/') && !resource.path.end_with?('01_top.html')
-		%section
-			.content
-				%header.major
-					%h2{id: resource.page_id}
-						= resource.data.title
-					- if resource.data.subtitle.length > 0
-						%p= resource.data.subtitle
-				= resource.render
+- resource = sitemap.find_resource_by_path('main/02_philosophie.html')
+%section
+	.content
+		%header.major
+			%h2{id: resource.page_id}
+				= resource.data.title
+			- if resource.data.subtitle.length > 0
+				%p= resource.data.subtitle
+		- if resource.data.bullets.count > 0
+			%ul.alt
+				- resource.data.bullets.each do |bullet|
+					%li= bullet.bullet
 
-		-# %li
-		-# 	%a.topic{href: resource.path}
+- resource = sitemap.find_resource_by_path('main/03_tagesablauf.html')
+%section
+	.content
+		%header.major
+			%h2{id: resource.page_id}
+				= resource.data.title
+			- if resource.data.subtitle.length > 0
+				%p= resource.data.subtitle
+		- if resource.data.time_slots.count > 0
+			.table-wrapper
+				%table
+					%tbody
+						- resource.data.time_slots.each do |time_slot|
+							%tr
+								%td= time_slot.time_frame
+								%td= time_slot.description
+		= resource.render
 
 / Section
 %section
