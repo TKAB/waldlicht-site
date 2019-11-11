@@ -87,4 +87,11 @@ title: Der Waldkindergarten
 						%a{href: image_url, 'data-fancybox': 'gallery'}
 							%img{src: 'https://ik.imagekit.io/lkos7oq9xa/tr:h-400' + image_url}
 
-
+- resource = sitemap.find_resource_by_path('main/06_anfahrt.html')
+%section
+	.content
+		%header.major
+			%h2= resource.data.title
+			- if resource.data.subtitle.length > 0
+				%p= resource.data.subtitle
+		= resource.render
