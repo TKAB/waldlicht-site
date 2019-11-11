@@ -11,15 +11,15 @@
     %li
       %a{:href => "#top"} Der Waldkindergarten
     %li
-      %a{:href => "#philosophie"} Philosophie
+      %a{:href => "#philosophie"}= sitemap.find_resource_by_path('main/02_philosophie.html').data.title
     %li
-      %a{:href => "#tagesablauf"} Tagesablauf
+      %a{:href => "#tagesablauf"}= sitemap.find_resource_by_path('main/03_tagesablauf.html').data.title
     %li
-      %a{:href => "#team"} Das Team
+      %a{:href => "#team"}= sitemap.find_resource_by_path('main/04_team.html').data.title
+    %li
+      %a{:href => "#galerie"}= sitemap.find_resource_by_path('main/05_gallery.html').data.title
     %li
       %a{:href => "#team"} Anfahrt
-    %li
-      %a{:href => "elements.html"} Galerie
       
 / Section
 %section
@@ -48,8 +48,8 @@
 -#       %a.button{:href => "#"} More
 
 / Footer
-%footer#footer
-  %p.copyright © Untitled. All rights reserved.
+-# %footer#footer
+-#   %p.copyright © Untitled. All rights reserved.
 
 
 -# - toc = current_page.data.toc

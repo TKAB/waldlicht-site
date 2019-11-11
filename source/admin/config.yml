@@ -2,8 +2,8 @@ backend:
   name: git-gateway
   branch: master
 
-media_folder: source/images/uploads
-public_folder: /images/uploads
+media_folder: source/images/
+public_folder: /images/
 
 site_url: https://waldlicht.netlify.com
 display_url: https://waldlicht.netlify.com
@@ -19,6 +19,7 @@ collections:
           - { label: "Titel", name: "title", widget: "string" }
           - { label: "Untertitel", name: "subtitle", widget: "string" }
           - { label: "Text", name: "body", widget: "markdown" }
+          - { label: "Flyer", name: "flyer_url", widget: image }
       - label: "Philosophie"
         name: "philosophie"
         file: "/source/main/02_philosophie.html.md"
@@ -68,3 +69,15 @@ collections:
               - label: "Beschreibung"
                 name: "description"
                 widget: "string"
+      - label: "Gallery"
+        name: "gallery"
+        file: "/source/main/05_gallery.html.md"
+        fields:
+          - { label: "Titel", name: "title", widget: "string" }
+          - { label: "Untertitel", name: "subtitle", widget: "string" }
+          - { label: "Video URL", name: "video_url", widget: "text" }
+          - { label: "Text", name: "body", widget: "markdown" }
+          - label: "Gallery"
+            name: "gallery_images"
+            widget: "list"
+            field: { label: Image, name: image, widget: image }

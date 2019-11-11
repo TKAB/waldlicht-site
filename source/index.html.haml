@@ -19,7 +19,7 @@ title: Der Waldkindergarten
 %section
 	.content
 		%header.major
-			%h2{id: resource.page_id}
+			%h2#philosophie
 				= resource.data.title
 			- if resource.data.subtitle.length > 0
 				%p= resource.data.subtitle
@@ -32,7 +32,7 @@ title: Der Waldkindergarten
 %section
 	.content
 		%header.major
-			%h2{id: resource.page_id}
+			%h2#tagesablauf
 				= resource.data.title
 			- if resource.data.subtitle.length > 0
 				%p= resource.data.subtitle
@@ -52,7 +52,7 @@ title: Der Waldkindergarten
 %section
 	.content
 		%header.major
-			%h2{id: resource.page_id}
+			%h2#team
 				= resource.data.title
 			- if resource.data.subtitle.length > 0
 				%p= resource.data.subtitle
@@ -61,26 +61,24 @@ title: Der Waldkindergarten
 			%dl
 				- resource.data.members.each do |member|
 					%dt= member.name
-					%dd= member.description
+					%dd
+						%p= member.description
 
-/ Section
+- resource = sitemap.find_resource_by_path('main/05_gallery.html')
 %section
 	.content
 		%header.major
 			%h2#galerie
-				Galerie
-			%p Das Natürlichste auf der Welt sind Kinder und Natur
+				= resource.data.title
+			- if resource.data.subtitle.length > 0
+				%p= resource.data.subtitle
 
 		.row.gtr-200
 			.col-6.col-12-medium
-				%iframe{width: '100%', style: "min-height: 300px;", src: 'https://www.youtube.com/embed/zdtuZxV-K78', frameborder: 0, allow: "accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture", allowfullscreen: true}
+				%iframe{width: '100%', style: "min-height: 300px;", src: resource.data.video_url, frameborder: 0, allow: "accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture", allowfullscreen: true}
 
 			.col-6.col-12-medium
-				%p Mit der Galerie und unserem  Waldlicht-Video erhalten Sie einen kleinen Einblick in den Alltag des Waldkindergartens.
-
-				%p Wir sind zudem auf Facebook aktiv. Dort können Sie aktuelle Bilder und Videos einsehen.
-				%p
-					%a{href: 'http://facebook.com/waldlichtkinder'} facebook.com/waldlichtkinder
+				= resource.render
 
 		.row
 			.col-4.col-6-small
