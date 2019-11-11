@@ -9,7 +9,7 @@ site_url: https://waldlicht.netlify.com
 display_url: https://waldlicht.netlify.com
 
 collections:
-  - label: "Abschnitte"
+  - label: "Abschnitte der Seite"
     name: "sections"
     files:
       - label: "Intro"
@@ -18,14 +18,14 @@ collections:
         fields:
           - { label: "Titel", name: "title", widget: "string" }
           - { label: "Untertitel", name: "subtitle", widget: "string" }
-          - { label: "Body", name: "body", widget: "text" }
+          - { label: "Text", name: "body", widget: "markdown" }
       - label: "Philosophie"
         name: "philosophie"
         file: "/source/main/02_philosophie.html.md"
         fields:
           - { label: "Titel", name: "title", widget: "string" }
           - { label: "Untertitel", name: "subtitle", widget: "string" }
-          - { label: "Body", name: "body", widget: "markdown" }
+          - { label: "Text", name: "body", widget: "markdown" }
           - label: "Aufzählungspunkte"
             name: "bullets"
             widget: "list"
@@ -50,14 +50,14 @@ collections:
               - label: "Beschreibung"
                 name: "description"
                 widget: "string"
-          - { label: "Body", name: "body", widget: "markdown" }
+          - { label: "Text", name: "body", widget: "markdown" }
       - label: "Das Team"
         name: "team"
         file: "/source/main/04_team.html.md"
         fields:
           - { label: "Titel", name: "title", widget: "string" }
           - { label: "Untertitel", name: "subtitle", widget: "string" }
-          - { label: "Body", name: "body", widget: "markdown" }
+          - { label: "Text", name: "body", widget: "markdown" }
           - label: "Mitglieder"
             name: "members"
             widget: "list"
@@ -68,13 +68,3 @@ collections:
               - label: "Beschreibung"
                 name: "description"
                 widget: "string"
-
-  - label: "Pages"
-    name: "pages"
-    files:
-      - label: "Elements"
-        name: "elements"
-        file: "/source/elements.html"
-        fields:
-          - {label: "Body", name: "body", widget: "text"}
-
