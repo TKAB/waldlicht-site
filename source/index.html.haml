@@ -11,9 +11,9 @@ title: Der Waldkindergarten
 		= resource.render
 		%ul.actions
 			%li
-				%a.button.big{:href => "#"} PDF-Flyer ansehen
+				%a.button.big{href: resource.data.leaflet_url} PDF-Flyer ansehen
 	%span.image.object
-		%img{:alt => "", :src => "images/hero.jpg"}
+		%img{alt: "", src: "images/hero.jpg"}
 
 - resource = sitemap.find_resource_by_path('main/02_philosophie.html')
 %section
@@ -81,40 +81,10 @@ title: Der Waldkindergarten
 				= resource.render
 
 		.row
-			.col-4.col-6-small
-				%span.image.fit.gallery
-					%a{href: 'images/img01.jpg', 'data-fancybox': 'gallery'}
-						%img{src: 'https://ik.imagekit.io/lkos7oq9xa/tr:h-400/images/img01.jpg'}
-			.col-4.col-6-small
-				%span.image.fit.gallery
-					%a{href: 'images/img02.jpg', 'data-fancybox': 'gallery'}
-						%img{src: 'https://ik.imagekit.io/lkos7oq9xa/tr:h-400/images/img02.jpg'}
-			.col-4.col-6-small
-				%span.image.fit.gallery
-					%a{href: 'images/img03.jpg', 'data-fancybox': 'gallery'}
-						%img{src: 'https://ik.imagekit.io/lkos7oq9xa/tr:h-400/images/img03.jpg'}
-			.col-4.col-6-small
-				%span.image.fit.gallery
-					%a{href: 'images/img04.jpg', 'data-fancybox': 'gallery'}
-						%img{src: 'https://ik.imagekit.io/lkos7oq9xa/tr:h-400/images/img04.jpg'}
-			.col-4.col-6-small
-				%span.image.fit.gallery
-					%a{href: 'images/img05.jpg', 'data-fancybox': 'gallery'}
-						%img{src: 'https://ik.imagekit.io/lkos7oq9xa/tr:h-400/images/img05.jpg'}
-			.col-4.col-6-small
-				%span.image.fit.gallery
-					%a{href: 'images/img06.jpg', 'data-fancybox': 'gallery'}
-						%img{src: 'https://ik.imagekit.io/lkos7oq9xa/tr:h-400/images/img06.jpg'}
-			.col-4.col-6-small
-				%span.image.fit.gallery
-					%a{href: 'images/img07.jpg', 'data-fancybox': 'gallery'}
-						%img{src: 'https://ik.imagekit.io/lkos7oq9xa/tr:h-400/images/img07.jpg'}
-			.col-4.col-6-small
-				%span.image.fit.gallery
-					%a{href: 'images/img08.jpg', 'data-fancybox': 'gallery'}
-						%img{src: 'https://ik.imagekit.io/lkos7oq9xa/tr:h-400/images/img08.jpg'}
-			.col-4.col-6-small
-				%span.image.fit.gallery
-					%a{href: 'images/img09.jpg', 'data-fancybox': 'gallery'}
-						%img{src: 'https://ik.imagekit.io/lkos7oq9xa/tr:h-400/images/img09.jpg'}
+			- resource.data.gallery_images.each do |image_url|
+				.col-4.col-6-small
+					%span.image.fit.gallery
+						%a{href: image_url, 'data-fancybox': 'gallery'}
+							%img{src: 'https://ik.imagekit.io/lkos7oq9xa/tr:h-400' + image_url}
+
 
