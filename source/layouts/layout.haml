@@ -12,6 +12,7 @@
     = stylesheet_link_tag "site"
     = stylesheet_link_tag "jquery.fancybox"
     = javascript_include_tag "site"
+    %script{scr: "https://identity.netlify.com/v1/netlify-identity-widget.js"}
     %link{href: "https://fonts.googleapis.com/css?family=Amatic+SC|Montserrat&display=swap", rel: "stylesheet" }
 
   %body.is-preload
@@ -57,7 +58,6 @@
     %script{src: "/javascripts/html5up-editorial/main.js"}
     = javascript_include_tag "jquery.fancybox"
 
-    %script{scr: "https://identity.netlify.com/v1/netlify-identity-widget.js"}
     :javascript
       if (window.netlifyIdentity) {
         window.netlifyIdentity.on("init", user => {
