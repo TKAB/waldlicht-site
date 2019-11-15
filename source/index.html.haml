@@ -91,7 +91,12 @@ title: Der Waldkindergarten
 %section
 	.content
 		%header.major
-			%h2= resource.data.title
+			%h2#anfahrt
+				= resource.data.title
 			- if resource.data.subtitle.length > 0
 				%p= resource.data.subtitle
 		= resource.render
+		%iframe{ frameborder: "0", height: "350", marginheight: "0", marginwidth: "0", scrolling: "yes", src: resource.data.iframe_map_url, style: "border: 1px solid black; max-width: 525px;", width: "100%" }
+		%br/
+		%small
+			%a{href: resource.data.link_map_url } Größere Karte anzeigen
