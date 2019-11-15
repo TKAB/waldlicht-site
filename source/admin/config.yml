@@ -92,4 +92,6 @@ collections:
           - { label: "Titel", name: "title", widget: "string" }
           - { label: "Untertitel", name: "subtitle", widget: "string", required: false }
           - { label: "Text", name: "body", widget: "markdown" }
+          - { label: "URL für Kartenwidget", name: iframe_map_url, widget: string}
+          - { label: "URL für große Karte", name: link_map_url, widget: string}
  
