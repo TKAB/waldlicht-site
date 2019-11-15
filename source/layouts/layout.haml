@@ -13,7 +13,6 @@
     = stylesheet_link_tag "jquery.fancybox"
     = javascript_include_tag "site"
     %link{href: "https://fonts.googleapis.com/css?family=Amatic+SC|Montserrat&display=swap", rel: "stylesheet" }
-    %script{scr: "https://identity.netlify.com/v1/netlify-identity-widget.js"}
 
   %body.is-preload
     / Wrapper
@@ -51,9 +50,10 @@
           = partial "partials/sidebar"
 
     / Scripts
-    %script{:src => "/javascripts/html5up-editorial/jquery.min.js"}
-    %script{:src => "/javascripts/html5up-editorial/browser.min.js"}
-    %script{:src => "/javascripts/html5up-editorial/breakpoints.min.js"}
-    %script{:src => "/javascripts/html5up-editorial/util.js"}
-    %script{:src => "/javascripts/html5up-editorial/main.js"}
+    %script{scr: "https://identity.netlify.com/v1/netlify-identity-widget.js"}
+    %script{src: "/javascripts/html5up-editorial/jquery.min.js"}
+    %script{src: "/javascripts/html5up-editorial/browser.min.js"}
+    %script{src: "/javascripts/html5up-editorial/breakpoints.min.js"}
+    %script{src: "/javascripts/html5up-editorial/util.js"}
+    %script{src: "/javascripts/html5up-editorial/main.js"}
     = javascript_include_tag "jquery.fancybox"
