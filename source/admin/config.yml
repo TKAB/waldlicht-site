@@ -20,6 +20,7 @@ collections:
           - { label: "Untertitel", name: "subtitle", widget: "string", required: false }
           - { label: "Text", name: "body", widget: "markdown" }
           - { label: "Flyer", name: "flyer_url", widget: image }
+          - { label: "Bild", name: "image", widget: image, required: false}
       - label: "Philosophie"
         name: "philosophie"
         file: "/source/main/02_philosophie.html.md"
@@ -34,6 +35,7 @@ collections:
               - label: "Aufzählungspunkt"
                 name: "bullet"
                 widget: "string"
+          - { label: "Bild", name: "image", widget: image, required: false}
       - label: "Tagesablauf"
         name: "tagesablauf"
         file: "/source/main/03_tagesablauf.html.md"
@@ -52,6 +54,7 @@ collections:
                 name: "description"
                 widget: "string"
           - { label: "Text", name: "body", widget: "markdown" }
+          - { label: "Bild", name: "image", widget: image, required: false}
       - label: "Das Team"
         name: "team"
         file: "/source/main/04_team.html.md"
@@ -69,6 +72,7 @@ collections:
               - label: "Beschreibung"
                 name: "description"
                 widget: "string"
+          - { label: "Bild", name: "image", widget: image, required: false}
       - label: "Gallery"
         name: "gallery"
         file: "/source/main/05_gallery.html.md"

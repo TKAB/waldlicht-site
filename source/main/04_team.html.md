@@ -1,6 +1,7 @@
 ---
 title: Das Team
 subtitle: Wir sind...
+image: /images/pic03.jpg
 members:
   - description: >-
       Kindergartenpädagogin (Leitung), Naturmentorin, <a

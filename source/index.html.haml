@@ -13,7 +13,7 @@ title: Der Waldkindergarten
 			%li
 				%a.button.big{href: resource.data.leaflet_url} PDF-Flyer ansehen
 	%span.image.object
-		%img{alt: "", src: "images/hero.jpg"}
+		%img{alt: "", src: resource.data.image}
 
 - resource = sitemap.find_resource_by_path('main/02_philosophie.html')
 %section
@@ -23,10 +23,15 @@ title: Der Waldkindergarten
 				= resource.data.title
 			- if resource.data.subtitle.length > 0
 				%p= resource.data.subtitle
-		- if resource.data.bullets && resource.data.bullets.count > 0
-			%ul.alt
-				- resource.data.bullets.each do |bullet|
-					%li= bullet.bullet
+		.row
+			.col-12-small{class: resource.data.image ? 'col-8' : 'col-12'}
+				- if resource.data.bullets && resource.data.bullets.count > 0
+					%ul.alt
+						- resource.data.bullets.each do |bullet|
+							%li= bullet.bullet
+			- if resource.data.image
+				.col-4.col-12-small
+					%img{ src: resource.data.image, width: '100%' }
 
 - resource = sitemap.find_resource_by_path('main/03_tagesablauf.html')
 %section
@@ -36,17 +41,24 @@ title: Der Waldkindergarten
 				= resource.data.title
 			- if resource.data.subtitle.length > 0
 				%p= resource.data.subtitle
-		- if resource.data.time_slots_header && resource.data.time_slots_header.length > 0
-			%h3= resource.data.time_slots_header
-		- if resource.data.time_slots && resource.data.time_slots.count > 0
-			.table-wrapper
-				%table
-					%tbody
-						- resource.data.time_slots.each do |time_slot|
-							%tr
-								%td= time_slot.time_frame
-								%td= time_slot.description
-		= resource.render
+		.row
+			.col-12
+				- if resource.data.time_slots_header && resource.data.time_slots_header.length > 0
+					%h3= resource.data.time_slots_header
+				- if resource.data.time_slots && resource.data.time_slots.count > 0
+					.table-wrapper
+						%table
+							%tbody
+								- resource.data.time_slots.each do |time_slot|
+									%tr
+										%td= time_slot.time_frame
+										%td= time_slot.description
+		.row
+			.col-12-small{class: resource.data.image ? 'col-8' : 'col-12'}
+				= resource.render
+			- if resource.data.image
+				.col-4.col-12-small
+					%img{ src: resource.data.image, width: '100%' }
 
 - resource = sitemap.find_resource_by_path('main/04_team.html')
 %section
@@ -56,13 +68,18 @@ title: Der Waldkindergarten
 				= resource.data.title
 			- if resource.data.subtitle.length > 0
 				%p= resource.data.subtitle
-		= resource.render
-		- if resource.data.members && resource.data.members.count > 0
-			%dl
-				- resource.data.members.each do |member|
-					%dt= member.name
-					%dd
-						%p= member.description
+		.row
+			.col-12-small{class: resource.data.image ? 'col-8' : 'col-12'}
+				= resource.render
+				- if resource.data.members && resource.data.members.count > 0
+					%dl
+						- resource.data.members.each do |member|
+							%dt= member.name
+							%dd
+								%p= member.description
+			- if resource.data.image
+				.col-4.col-12-small
+					%img{ src: resource.data.image, width: '100%' }
 
 - resource = sitemap.find_resource_by_path('main/05_gallery.html')
 %section

@@ -2,6 +2,7 @@
 name_of_file: 02_philosophie
 title: Philosophie
 subtitle: Der Waldkindergarten ermöglicht den Kindern...
+image: /images/pic01.jpg
 bullets:
   - bullet: ...das Erleben der jahreszeitlichen Rhytmen und Naturerscheinungen
   - bullet: ...das Wahrnehmen der heimischen Pflanzen und Tiere in ihren ursprünglichen Lebensräumen
