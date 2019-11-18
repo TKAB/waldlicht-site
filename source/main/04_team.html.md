@@ -9,9 +9,9 @@ members:
       Vereinsobfrau
     name: Somi Adrienn
   - description: >-
-      <a href="http://www.nawisho.at/kursangebot/">Natur- und
+      <a href="http://www.martinfuerst.com/wildnisschule-nawisho">Natur- und
       Wildnistrainer</a>, <a
-      href="http://www.nawisho.at/kurse/lehrgang-friedenstiften/">Friedensstifter</a>,
+      href="http://www.martinfuerst.com/wildnisschule-nawisho">Friedensstifter</a>,
       Musiker, Handwerker, Organisation
     name: Manuel Mädel
   - description: Kindergartenpädagogin
