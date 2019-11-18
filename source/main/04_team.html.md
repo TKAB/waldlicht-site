@@ -16,7 +16,7 @@ members:
     name: Manuel Mädel
   - description: Kindergartenpädagogin
     name: Alexandra Elleberger
-  - description: Sonderkindergartenpädagogin
+  - description: Kindergartenpädagogin
     name: Marianne Petschnig
 image: /images/pic03.jpg
 ---
