@@ -13,6 +13,6 @@ bullets:
       natürlichen Materialien
   - bullet: '...selbstständige Handeln, Forschen und Entdecken'
   - bullet: ...ihr Immunsystem auf natürliche Weise zu stärken
-image: ''
+image: /images/img02.jpg
 ---
 
