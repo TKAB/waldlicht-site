@@ -1,6 +1,6 @@
 ---
 title: Der Waldkindergarten in Viktring
-flyer_url: /images/hero.jpg
+flyer_url: /images/Waldlicht_Flyer.pdf
 image: /images/img_20191014_170324.jpg
 ---
 
