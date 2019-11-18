@@ -4,7 +4,7 @@ subtitle: Wir sind...
 members:
   - description: >-
       Kindergartenpädagogin (Leitung), Naturmentorin, <a
-      href="https://www.martinfuerst.com/wildnisschule-nawisho">Natur- und
+      href="http://www.martinfuerst.com/wildnisschule-nawisho">Natur- und
       Wildnistrainerin</a>, Tanzpädagogin, Organisation, Kindergartengestaltung,
       Vereinsobfrau
     name: Somi Adrienn
