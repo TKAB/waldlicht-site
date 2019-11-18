@@ -13,7 +13,7 @@ time_slots:
     time_frame: '10:30 - 12:00'
   - description: fließende Abholzeit/Freispielzeit beim Bauwagen
     time_frame: '12:30 - 13:30'
-image: /images/waldlichtfilm-still-kreis.tiff
+image: /images/waldlichtfilm-still-kreis-jpg.jpg
 ---
 ### Eine Woche im Waldlicht
 
