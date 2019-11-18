@@ -10,7 +10,3 @@ Das Grundkonzept des Waldkindergartens entstand vor ca. 50 Jahren in Dänemark. 
 Die Wertschätzung der Lebensgemeinschaft Wald und Naturverbundenheit stehen im Waldkindergarten Waldlicht im Mittelpunkt.
 
 Je nach Witterung stehen flexible Planen und ein beheizbarer Bauwagen als Raum zur Verfügung.
-
-
-
-/images/Waldlicht_Flyer.pdf
