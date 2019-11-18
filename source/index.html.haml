@@ -12,8 +12,9 @@ title: Der Waldkindergarten
 		%ul.actions
 			%li
 				%a.button.big{href: resource.data.flyer_url} PDF-Flyer ansehen
-	%span.image.object
-		%img{alt: "", src: resource.data.image}
+	- if resource.data.image
+		%span.image.object
+			%img{alt: "", src: 'https://ik.imagekit.io/lkos7oq9xa/tr:h-1500,w-1500,c-at_max' + resource.data.image}
 
 - resource = sitemap.find_resource_by_path('main/02_philosophie.html')
 %section
