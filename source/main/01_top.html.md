@@ -1,7 +1,7 @@
 ---
 title: Der Waldkindergarten in Viktring
 flyer_url: /images/hero.jpg
-image: /images/img_20191014_170324.jpg
+image: /images/hero.jpg
 ---
 
 Das Wesen des Waldkindergartens ist der tägliche, intensive Aufenthalt in der Natur sowie die spielerische Auseinandersetzung mit der natürlichen Umgebung.
