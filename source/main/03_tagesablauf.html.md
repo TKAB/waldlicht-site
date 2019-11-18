@@ -1,7 +1,6 @@
 ---
 title: Tagesablauf
 subtitle: Die Zeit im Waldkindergarten Waldlicht
-image: /images/pic02.jpg
 time_slots_header: Zeitliche Übersicht
 time_slots:
   - description: 'Sammelzeit beim Bauwagen bis 08:15, freie Spielzeit'
@@ -14,6 +13,7 @@ time_slots:
     time_frame: '10:30 - 12:00'
   - description: fließende Abholzeit/Freispielzeit beim Bauwagen
     time_frame: '12:30 - 13:30'
+image: /images/waldlichtfilm-still-kreis.tiff
 ---
 ### Eine Woche im Waldlicht
 
