@@ -73,7 +73,7 @@ collections:
                 name: "description"
                 widget: "string"
           - { label: "Bild", name: "image", widget: image, required: false}
-      - label: "Gallerie"
+      - label: "Galerie"
         name: "gallery"
         file: "/source/main/05_gallery.html.md"
         fields:
