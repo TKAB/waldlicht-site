@@ -85,8 +85,8 @@ collections:
             name: "gallery_images"
             widget: "list"
             field: { label: Bild, name: image, widget: image }
-      - label: "Anfahrt"
-        name: "anfahrt"
+      - label: "Standort"
+        name: "Standort"
         file: "/source/main/06_anfahrt.html.md"
         fields:
           - { label: "Titel", name: "title", widget: "string" }
