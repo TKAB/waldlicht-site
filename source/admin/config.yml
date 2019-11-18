@@ -27,7 +27,7 @@ collections:
         fields:
           - { label: "Titel", name: "title", widget: "string" }
           - { label: "Untertitel", name: "subtitle", widget: "string", required: false }
-          - { label: "Text", name: "body", widget: "markdown" }
+          - { label: "Text", name: "body", widget: "markdown", required: false }
           - label: "Aufzählungspunkte"
             name: "bullets"
             widget: "list"
@@ -73,7 +73,7 @@ collections:
                 name: "description"
                 widget: "string"
           - { label: "Bild", name: "image", widget: image, required: false}
-      - label: "Gallery"
+      - label: "Gallerie"
         name: "gallery"
         file: "/source/main/05_gallery.html.md"
         fields:
@@ -91,7 +91,7 @@ collections:
         fields:
           - { label: "Titel", name: "title", widget: "string" }
           - { label: "Untertitel", name: "subtitle", widget: "string", required: false }
-          - { label: "Text", name: "body", widget: "markdown" }
+          - { label: "Text", name: "body", widget: "markdown", required: false }
           - { label: "URL für Kartenwidget", name: iframe_map_url, widget: string}
           - { label: "URL für große Karte", name: link_map_url, widget: string}
  
