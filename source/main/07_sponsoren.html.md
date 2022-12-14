@@ -1,3 +1,4 @@
+---
 title: Sponsoren
 subtitle: Wir danken...
 sponsors:
