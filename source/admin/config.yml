@@ -73,6 +73,28 @@ collections:
                 name: "description"
                 widget: "string"
           - { label: "Bild", name: "image", widget: image, required: false}
+      - label: "Sponsoren"
+        name: "sponsors"
+        file: "/source/main/07_sponsoren.html.md"
+        fields:
+          - { label: "Titel", name: "title", widget: "string" }
+          - { label: "Untertitel", name: "subtitle", widget: "string", required: false }
+          - { label: "Text", name: "body", widget: "markdown" }
+          - label: "Sponsoren"
+            name: "sponsors"
+            widget: "list"
+            fields:
+              - label: "Name"
+                name: "name"
+                widget: "string"
+              - label: "Beschreibung"
+                name: "description"
+                widget: "string"
+              - label: "Logo"
+                name: "logo"
+                widget: "image"
+                required: false
+          - { label: "Bild", name: "image", widget: image, required: false}
       - label: "Galerie"
         name: "gallery"
         file: "/source/main/05_gallery.html.md"

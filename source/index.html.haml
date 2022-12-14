@@ -82,6 +82,30 @@ title: Der Waldkindergarten
 				.col-4.col-12-small
 					%img{ src: resource.data.image, width: '100%' }
 
+- resource = sitemap.find_resource_by_path('main/07_sponsoren.html')
+%section
+	.content
+		%header.major
+			%h2#sponsoren
+				= resource.data.title
+			- if resource.data.subtitle.length > 0
+				%p= resource.data.subtitle
+		.row
+			.col-12-small{class: resource.data.image ? 'col-8' : 'col-12'}
+				= resource.render
+				- if resource.data.sponsors && resource.data.sponsors.count > 0
+					%dl
+						- resource.data.sponsors.each do |sponsor|
+							%dt= sponsor.name
+							%dd
+								%p= sponsor.description
+								- if sponsor.logo
+									%p
+										%img{ src: sponsor.logo}
+			- if resource.data.image
+				.col-4.col-12-small
+					%img{ src: resource.data.image, width: '100%' }
+
 - resource = sitemap.find_resource_by_path('main/05_gallery.html')
 %section
 	.content
