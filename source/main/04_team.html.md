@@ -10,9 +10,9 @@ members:
   - description: <a href="http://www.martinfuerst.com/wildnisschule-nawisho">Natur-
       und Wildnistrainer</a>, <a
       href="http://www.martinfuerst.com/wildnisschule-nawisho">Friedensstifter</a>,
-      Musiker, Handwerker, Organisation
+      Musiker, Handwerker, Platzhüter
     name: Manuel Mädel
-  - description: Kindergartenpädagogin, Wildnisküche
+  - description: Kindergartenpädagogin, Wildnisküche, Organisation
     name: Marianne Petschnig
   - name: Juliana Potisk
     description: Kindergartenassistentin, Künstlerin
