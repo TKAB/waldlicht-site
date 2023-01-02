@@ -12,7 +12,7 @@ members:
       href="http://www.martinfuerst.com/wildnisschule-nawisho">Friedensstifter</a>,
       Musiker, Handwerker, Organisation
     name: Manuel Mädel
-  - description: Kindergartenpädagogin
+  - description: Kindergartenpädagogin, Wildnisküche
     name: Marianne Petschnig
 image: /images/pic03.jpg
 ---
