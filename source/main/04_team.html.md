@@ -16,4 +16,4 @@ members:
     name: Marianne Petschnig
 image: /images/pic03.jpg
 ---
-...ein multiprofessionelles Team aus KindergartenpädagogInnen, WildnistrainerInnen, Naturmentorin, Musiker, Tanzpädagogin und Bilderbuchautor. Wir legen Wert darauf, die Besonderheiten eines jeden Kindes zu berücksichtigen und seine Individualität zu wahren. Kompetenzen und Selbstverantwortung des Kindes werden in den Vordergrund gestellt.
+...ein multiprofessionelles Team aus KindergartenpädagogInnen, WildnistrainerInnen, Naturmentorin, Musiker, Tanzpädagogin. Wir legen Wert darauf, die Besonderheiten eines jeden Kindes zu berücksichtigen und seine Individualität zu wahren. Kompetenzen und Selbstverantwortung des Kindes werden in den Vordergrund gestellt.
