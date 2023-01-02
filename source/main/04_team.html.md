@@ -2,20 +2,16 @@
 title: Das Team
 subtitle: Wir sind...
 members:
-  - description: >-
-      Kindergartenpädagogin (Leitung), Naturmentorin, <a
+  - description: Kindergartenpädagogin (Leitung), Naturmentorin, <a
       href="http://www.martinfuerst.com/wildnisschule-nawisho">Natur- und
       Wildnistrainerin</a>, Tanzpädagogin, Organisation, Kindergartengestaltung,
       Vereinsobfrau
     name: Somi Adrienn
-  - description: >-
-      <a href="http://www.martinfuerst.com/wildnisschule-nawisho">Natur- und
-      Wildnistrainer</a>, <a
+  - description: <a href="http://www.martinfuerst.com/wildnisschule-nawisho">Natur-
+      und Wildnistrainer</a>, <a
       href="http://www.martinfuerst.com/wildnisschule-nawisho">Friedensstifter</a>,
       Musiker, Handwerker, Organisation
     name: Manuel Mädel
-  - description: Kindergartenpädagogin
-    name: Alexandra Elleberger
   - description: Kindergartenpädagogin
     name: Marianne Petschnig
 image: /images/pic03.jpg
