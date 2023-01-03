@@ -20,7 +20,7 @@ sponsors:
 
 * die wertvolle Unterstützung wie z.B. Reparaturarbeiten, Sachspenden, Geldspenden und Werbung
 * die Beteiligung am Flohmarkt im Sommer 2022
-* die wunderschönen Handwerksprodukte und köstlichen Kuchen am Adventmarkt 2022
+* die wunderschönen Handwerksprodukte und köstlichen Kuchen am Adventmarkt 2022, sowie Auf- und Abbau und Verkauf 
 
 
 
