@@ -20,7 +20,7 @@ image: /images/waldlichtfilm-still-kreis-jpg.jpg
 
 Montags und Freitags verweilen wir am Platz beim Bauwagen. Hier laden die Gatschküche, die Forschungsstation und die Werkstatt ein, aktiv zu werden. 
 
-Dienstags, Mittwochs und Donnerstags erforschen und bespielen wir naheliegende Waldstücke und Wiesen. Je nach Wetter verbringt die Gruppe den gesamten Vormittag an einem Bachlauf oder auf einer großen sonnigen Wiese. 
+Dienstags, Mittwochs und Donnerstags erforschen und bespielen wir naheliegende Waldstücke und Wiesen. Je nach Wetter verbringt die Gruppe den gesamten Vormittag an einem Bachlauf, auf einer großen sonnigen Wiese oder beim Bobfahren im Hang. 
 
 An kalten Tagen kann der Bauwagen eingeheizt oder ein wärmendes Lagerfeuer in der Feuerstelle entfacht werden. 
 
