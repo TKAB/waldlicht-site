@@ -11,11 +11,17 @@ sponsors:
   - name: Oliver Martin Sereinig
     description: Heilmasseur
   - name: Selbstbedienungsladen Viktring
-    description: "Pipitzweg 18A "
-    logo: /images/selbstbedienungsladen-viktring.jpeg
+    description: Pipitzweg 18A Klagenfurt
+    logo: ""
+  - name: Prieler Mineralien
+    description: Gutsmannweg 14 Klagenfurt
 ---
 ...Eltern und Familien der Waldlichter für:
 
 * die wertvolle Unterstützung wie z.B. Reparaturarbeiten, Sachspenden, Geldspenden und Werbung
 * die Beteiligung am Flohmarkt im Sommer 2022
 * die wunderschönen Handwerksprodukte und köstlichen Kuchen am Adventmarkt 2022
+
+
+
+...Firmen und Unternehmen:
