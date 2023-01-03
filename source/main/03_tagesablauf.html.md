@@ -1,5 +1,5 @@
 ---
-title: Tagesablauf
+title: "Der Tag, die Woche, das Jahr im Waldlicht "
 subtitle: Die Zeit im Waldkindergarten Waldlicht
 time_slots_header: Zeitliche Übersicht
 time_slots:
