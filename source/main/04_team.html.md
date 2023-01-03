@@ -20,4 +20,4 @@ members:
     description: Biologe phytagoras.at
 image: /images/team.jpg
 ---
-...ein multiprofessionelles Team aus KindergartenpädagogInnen, WildnistrainerInnen, Naturmentorin, Musiker, Tanzpädagogin. Wir legen Wert darauf, die Besonderheiten eines jeden Kindes zu berücksichtigen und seine Individualität zu wahren. Kompetenzen und Selbstverantwortung des Kindes werden in den Vordergrund gestellt.
+...ein multiprofessionelles Team aus KindergartenpädagogInnen, WildnistrainerInnen, Naturmentorin, Musiker, Tanzpädagogin, Künstlerin, Biologe. Wir legen Wert darauf, die Besonderheiten eines jeden Kindes zu berücksichtigen und seine Individualität zu wahren. Kompetenzen und Selbstverantwortung des Kindes werden in den Vordergrund gestellt.
