@@ -20,6 +20,6 @@ sponsors:
 
 * die wertvolle Unterstützung wie z.B. Reparaturarbeiten, Sachspenden, Geldspenden und Werbung
 * die Beteiligung an den Flohmärkten
-* die wunderschönen Handwerksprodukte und köstlichen Kuchen beim alljährlichen Adventzauber, sowie Auf- und Abbau und Verkauf 
+* das Mitwirken beim alljährlichen Adventzauber 
 
 ...Firmen und Unternehmen:
