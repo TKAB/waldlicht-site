@@ -9,11 +9,13 @@ time_slots:
     time_frame: 08:30 - 10:00
   - description: Händewaschen und gemeinsame Jause
     time_frame: 10:00 - 10:30
-  - description: Zeit für das Freie Spiel, pädagogische Angebote, 12:00
-      Abschlusskreis, Rückweg zum Bauwagen
+  - description: "Zeit für das Freie Spiel, pädagogische Angebote, Rückweg zum
+      Bauwagen, im Anschluss: gemeinsamer Abschlusskreis"
     time_frame: 10:30 - 12:00
-  - description: fließende Abholzeit/Freispielzeit beim Bauwagen
-    time_frame: 12:30 - 13:30
+  - description: Mittagessen
+    time_frame: "12:45 - 13:15 "
+  - time_frame: "13:15 - 14:00 "
+    description: Zeit zum Entspannen am Lagerfeuer oder in der Hängematte, Freispiel
 image: /images/waldlichtfilm-still-kreis-jpg.jpg
 ---
 ### Eine Woche im Waldlicht
