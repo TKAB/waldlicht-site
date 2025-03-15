@@ -8,20 +8,18 @@ sponsors:
   - name: "Dattelbär "
     description: dattelbaer.com
     logo: /images/dattelbaer-logo-mitte.png
-  - name: Oliver Martin Sereinig
-    description: Heilmasseur
-  - name: Selbstbedienungsladen Viktring
+  - name: Martin Oliver Sereinig
+    description: Heilmasseur www.impulsinstitut.at
+  - name: Riverfarm - Hofladen am Bach
     description: Pipitzweg 18A Klagenfurt
     logo: ""
-  - name: Prieler Mineralien
-    description: Gutsmannweg 14 Klagenfurt
+  - name: Prieler Mineralien Viktring
+    description: Gutsmannweg 14 Viktring
 ---
 ...Eltern und Familien der Waldlichter für:
 
 * die wertvolle Unterstützung wie z.B. Reparaturarbeiten, Sachspenden, Geldspenden und Werbung
-* die Beteiligung am Flohmarkt im Sommer 2022
-* die wunderschönen Handwerksprodukte und köstlichen Kuchen am Adventmarkt 2022, sowie Auf- und Abbau und Verkauf 
-
-
+* die Beteiligung an den Flohmärkten
+* die wunderschönen Handwerksprodukte und köstlichen Kuchen beim alljährlichen Adventzauber, sowie Auf- und Abbau und Verkauf 
 
 ...Firmen und Unternehmen:
